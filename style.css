@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Verdana;
+    font: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
     margin-top: 20px;
@@ -49,14 +49,16 @@ div {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-width: 0px 0px 2px 5px ;
+    border-left-width: 5px;
+    border-bottom-width: 2px;
 }
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-width: 2px 5px 0px 0px;
+    border-right-width: 5px;
+    border-top-width:2px;
 }
 
 .blue h2 {
@@ -72,7 +74,8 @@ div {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-width: 0px 0px 2px 5px ;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
 }
 
 .yellow p {
@@ -83,7 +86,8 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-width: 2px 5px 0px 0px ;
+    border-top-width: 2px;
+    border-right-width: 5px;
 }
 
 footer {
